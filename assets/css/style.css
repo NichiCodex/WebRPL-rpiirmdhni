@@ -1,0 +1,237 @@
+@font-face {
+	font-family: "Poppins";
+	src: url("/WebRPL/assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+::-moz-selection {
+    color: #ffffff !important;
+    background: #2F308B !important;
+}
+::selection {
+    color: #ffffff !important;
+    background: #2F308B !important;
+}
+
+.bg-nichi {
+	background-color: #090a23 !important;
+	color: #ffffff !important;
+}
+
+.dropdown-toggle::after {
+    color: #2F308B !important;
+    font-family: 'Font Awesome 5 Pro' !important;
+    content: '\f078 \10f078' !important;
+    font-size: 15px !important;
+    vertical-align: 0 !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    border-left: 0px !important;
+    font-weight: 600 !important;
+}
+
+.dropdown-toggle.show::after {
+    color: #2F308B !important;
+    font-family: 'Font Awesome 5 Pro' !important;
+    content: '\f077 \10f077' !important;
+    font-size: 15px !important;
+    vertical-align: 0 !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    border-left: 0px !important;
+    font-weight: 600 !important;
+}
+
+marquee, marquee * {
+    padding: 0 !important;
+    margin-bottom: -5px!important;
+}
+
+marquee {
+    -webkit-margin-before: 0 !important;
+    -webkit-margin-after: 0 !important;
+    -webkit-padding-start: 0 !important;
+    -webkit-padding-end: 0 !important;
+}
+
+body {
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.nav-link.active {
+	text-decoration: solid underline #2F308B 4px;
+	text-underline-offset: 5px;
+	text-decoration-thickness: 0.2rem;
+}
+
+.card-img-top {
+	max-height: 300px !important;
+	min-height: 300px !important;
+	object-fit: cover !important;
+}
+
+button {
+	box-shadow: none !important;
+}
+
+.form-control {
+	box-shadow: none !important;
+}
+
+.form-control:hover {
+	border-color: #2F308B !important;
+}
+
+.form-control:focus {
+	border-color: #2F308B !important;
+}
+
+.navbar-toggler {
+	box-shadow: none !important;
+	border: 0px !important;
+}
+
+.dropdown-menu {
+	border: 0px !important;
+}
+
+.nav-link.dropdown-toggle {
+    box-shadow: none !important;
+}
+
+html,
+body {
+	height: 100vh !important;
+	margin: 0;
+	padding: 0;
+}
+
+.nichibanner {
+	object-fit: cover !important;
+	filter: grayscale(100%);
+	max-height: 50vh !important;
+}
+
+.nichisearch {
+	margin-block-end: 0 !important;
+}
+
+.nichi-border-footer {
+	border-bottom: 4px double #ffffff !important;
+}
+
+.nichilogo {
+	height: auto !important;
+	width: auto !important;
+	max-height: 60px !important;
+	max-width: auto !important;
+}
+
+.nichisvg {
+	width: 100% !important;
+	max-width: 500px !important;
+	height: auto !important;
+}
+
+.nichipost {
+	object-fit: cover !important;
+}
+
+.nichi-main-img {
+	max-height: 50vh !important;
+	width: 100% !important;
+	max-width: 700px !important;
+}
+
+.border-primary {
+	border-color: #2F308B !important;
+}
+
+.text-under {
+	text-decoration: solid underline #2F308B 4px;
+	text-underline-offset: 5px;
+	text-decoration-thickness: 0.2rem;
+}
+
+.bg-footer {
+	background-color: #090a23 !important;
+	color: #ffffff !important;
+}
+
+.bg-primary {
+	background-color: #2F308B !important;
+}
+
+.btn-primary {
+	background-color: #2F308B !important;
+	border-color: #2F308B !important;
+	color: #ffffff !important;
+}
+
+.btn-primary:hover {
+	background-color: #1f2163 !important;
+	border-color: #2F308B !important;
+	color: #ffffff !important;
+}
+
+.btn-primary:focus {
+	background: transparent !important;
+	border-color: #2F308B !important;
+	color: #2F308B !important;
+}
+
+.text-primary {
+	color: #2F308B !important;
+}
+
+.btn-outline-primary {
+	background: transparent !important;
+	border-color: #2F308B !important;
+	color: #2F308B !important;
+}
+
+.alert-primary {
+    background-color: #b7b8ff !important;
+    color: #2F308B !important;
+}
+
+.btn-outline-primary:hover {
+	background-color: #2F308B !important;
+	border-color: #2F308B !important;
+	color: #ffffff !important;
+}
+
+.btn-outline-primary:focus {
+	background-color: #2F308B !important;
+	border-color: #2F308B !important;
+	color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+	background-color: #2F308B !important;
+	color: #ffffff !important;
+}
+
+.dropdown-item:focus {
+	background-color: #2F308B !important;
+	color: #ffffff !important;
+}
+
+.dropdown-item:hover .text-primary {
+	color: #ffffff !important;
+}
+
+.dropdown-item:focus .text-primary {
+	color: #ffffff !important;
+}
+
+@media (max-width: 575.98px) {
+    #main-second-section .row {
+        flex-direction: column-reverse; /* Membalikkan urutan elemen */
+    }
+    #main-second-section .order-xl-1,
+    #main-second-section .order-xl-2 {
+        order: unset; /* Menghapus pengaturan order pada breakpoint XL */
+    }
+}
